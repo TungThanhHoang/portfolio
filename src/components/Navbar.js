@@ -77,7 +77,7 @@ function Navbar() {
         <div className="max-w-screen-xl mx-auto flex items-center justify-between">
           {/* Logo */}
           <div className="mx-5 py-3 font-bold text-darkcustom dark:text-slate-50 capitalize text-2xl">
-            <img src="../../ava2.png" alt="" width={40} height={40} />
+            <img src="../../avatar2.svg" alt="" width={40} height={40} />
           </div>
           {/* Navbar item */}
           <div className="hidden md:flex justify-end">
