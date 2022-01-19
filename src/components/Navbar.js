@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className=" sticky inset-x-0 top-0 left-0 bg-grayyellowcustom z-50 dark:bg-colordark2 ">
+      <nav className=" sticky inset-x-0 top-0 left-0 bg-grayyellowcustom z-50 dark:bg-colordark2 shadow-sm ">
         {/* Button Menu Mobile */}
         {isNavbar && (
           <div className="flex flex-1 items-center flex-col p-4 md:hidden fixed top-0 left-0 h-screen w-screen backdrop-blur-xl overflow-hidden  ">
@@ -77,32 +77,32 @@ function Navbar() {
         <div className="max-w-screen-xl mx-auto flex items-center justify-between">
           {/* Logo */}
           <div className="mx-5 py-3 font-bold text-darkcustom dark:text-slate-50 capitalize text-2xl">
-            <img src="../../avatar2.svg" alt="" width={40} height={40} />
+            <img src="../../avatar3.svg" alt="" width={30} height={30} />
           </div>
           {/* Navbar item */}
           <div className="hidden md:flex justify-end">
             <div className="flex flex-row ">
               <a
                 href="/"
-                className="mx-5 py-3 text-md font-bold cursor-pointer dark:text-slate-50 text-green-900 dark:border-b-colordark2 dark:hover:text-blue-300 dark:hover:boder-b-blue-300 border-b-grayyellowcustom border-b-2 hover:text-green-900 hover:border-b-2 hover:border-b-green-900 transation duration-500  "
+                className="mx-5 py-3 text-md font-bold cursor-pointer  dark:text-slate-50 text-green-900 dark:hover:border-b-blue-300 dark:hover:text-blue-300  dark:hover:boder-b-blue-300 border-b-transparent border-b-2 hover:text-green-900 hover:border-b-2 hover:border-b-green-900 transation duration-500  "
               >
                 Home
               </a>
               <a
                 href="#about"
-                className="mx-5 py-3 text-md font-bold cursor-pointer dark:text-slate-50 text-green-900 dark:border-b-colordark2 dark:hover:text-blue-300 dark:hover:boder-b-blue-300 border-b-grayyellowcustom border-b-2 hover:text-green-900 hover:border-b-2 hover:border-b-green-900 transation duration-500  "
+                className="mx-5 py-3 text-md font-bold cursor-pointer dark:text-slate-50 text-green-900 dark:hover:border-b-blue-300 dark:hover:text-blue-300 dark:hover:boder-b-blue-300 border-b-transparent border-b-2 hover:text-green-900 hover:border-b-2 hover:border-b-green-900 transation duration-500  "
               >
                 About
               </a>
               <a
                 href="#portfolio"
-                className="mx-5 py-3 text-md font-bold cursor-pointer dark:text-slate-50 text-green-900 dark:border-b-colordark2 dark:hover:text-blue-300 dark:hover:boder-b-blue-300 border-b-grayyellowcustom border-b-2 hover:text-green-900 hover:border-b-2 hover:border-b-green-900 transation duration-500  "
+                className="mx-5 py-3 text-md font-bold cursor-pointer dark:text-slate-50 text-green-900 dark:hover:border-b-blue-300 dark:hover:text-blue-300 dark:hover:boder-b-blue-300 border-b-transparent border-b-2 hover:text-green-900 hover:border-b-2 hover:border-b-green-900 transation duration-500  "
               >
                 Portfolio
               </a>
               <div
                 href="#contact"
-                className="mx-5 py-3 text-md font-bold cursor-pointer dark:text-slate-50 text-green-900 dark:border-b-colordark2 dark:hover:text-blue-300 dark:hover:boder-b-blue-300 border-b-grayyellowcustom border-b-2 hover:text-green-900 hover:border-b-2 hover:border-b-green-900 transation duration-500  "
+                className="mx-5 py-3 text-md font-bold cursor-pointer dark:text-slate-50 text-green-900 dark:hover:border-b-blue-300 dark:hover:text-blue-300 dark:hover:boder-b-blue-300 border-b-transparent border-b-2 hover:text-green-900 hover:border-b-2 hover:border-b-green-900 transation duration-500  "
               >
                 Contact
               </div>
@@ -131,13 +131,13 @@ function Navbar() {
 
             {/* Switch Darkmode */}
             <button
-              className=" mx-3 p-1 border-2 rounded-md border-graycustom hover:border-yellowcustom shadow-sm active:border-violet-600"
+              className=" mx-3 p-1 border-2 rounded-md border-graycustom hover:border-blue-300 shadow-sm active:border-violet-600"
               onClick={() => setDarkTheme(!darkTheme)}
             >
               {darkTheme ? (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-7 w-7 fill-green-900"
+                  className="h-7 w-7 fill-blue-300"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -150,7 +150,7 @@ function Navbar() {
               ) : (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-7 w-7 fill-green-900"
+                  className="h-7 w-7 fill-graycustom"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >

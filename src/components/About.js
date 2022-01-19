@@ -39,7 +39,7 @@ function About() {
                       />
                     </svg>
                   </div>
-                  <span className="font-bold pr-2 pl-2 text-base text-darkcustom dark:text-slate-500">
+                  <span className="font-bold pr-2 pl-2 text-base text-darkcustom dark:text-slate-400">
                     First Name:
                   </span>
                   <span className="text-graycustom dark:text-slate-50 font-medium text-md">
@@ -63,7 +63,7 @@ function About() {
                       />
                     </svg>
                   </div>
-                  <span className="font-bold pr-2 pl-2 text-base text-darkcustom dark:text-slate-500">
+                  <span className="font-bold pr-2 pl-2 text-base text-darkcustom dark:text-slate-400">
                     Last Name:
                   </span>
                   <span className="text-graycustom dark:text-slate-50 font-medium text-md">
@@ -87,7 +87,7 @@ function About() {
                       />
                     </svg>
                   </div>
-                  <span className="font-bold pr-2 pl-2 text-base text-darkcustom dark:text-slate-500">
+                  <span className="font-bold pr-2 pl-2 text-base text-darkcustom dark:text-slate-400">
                     Birthday:
                   </span>
                   <span className="text-graycustom dark:text-slate-50 font-medium text-md">
@@ -111,7 +111,7 @@ function About() {
                       />
                     </svg>
                   </div>
-                  <span className="font-bold pr-2 pl-2 text-base text-darkcustom dark:text-slate-500">
+                  <span className="font-bold pr-2 pl-2 text-base text-darkcustom dark:text-slate-400">
                     Phone:
                   </span>
                   <span className="text-graycustom dark:text-slate-50 font-medium text-md">
@@ -141,7 +141,7 @@ function About() {
                       />
                     </svg>
                   </div>
-                  <span className="font-bold pr-2 pl-2 text-base text-darkcustom dark:text-slate-500">
+                  <span className="font-bold pr-2 pl-2 text-base text-darkcustom dark:text-slate-400">
                     Address:
                   </span>
                   <span className="text-graycustom dark:text-slate-50 font-medium text-md">
@@ -165,7 +165,7 @@ function About() {
                       />
                     </svg>
                   </div>
-                  <span className="font-bold pr-2 pl-2 text-base text-darkcustom dark:text-slate-500">
+                  <span className="font-bold pr-2 pl-2 text-base text-darkcustom dark:text-slate-400">
                     Email:
                   </span>
                   <span className="text-graycustom dark:text-slate-50 font-medium text-md">

@@ -3,7 +3,7 @@ import React from "react";
 function Poster() {
   return (
     <>
-      <section className="h-screen md:pt-26 pt-10 background-container relative dark:bg-colordark2 ">
+      <section className="h-screen md:pt-26 pt-10 background-container relative dark:bg-colordark2  ">
         {/* <div className="absolute top-0 left-0 bottom-0 z-0 h-screen max-w-screen-xl ">
         </div> */}
         <div className="max-w-screen-xl mx-auto px-4">
@@ -23,7 +23,7 @@ function Poster() {
                   Programer
                 </div> */}
               </div>
-              <button data-aos="fade-right" data-aos-duration="2000" className="mt-5  bg-green-900 text-whitecustom  px-5 py-2 text-sm sm:px-6 sm:py-3 rounded-lg font-medium sm:text-md md:text-md hover:bg-green-700 transition duration-200">
+              <button data-aos="fade-right" data-aos-duration="2000" className="mt-5  bg-gradient-to-r ml-3 from-colorbutton to-colorbutton2 text-whitecustom  px-5 py-3 text-md sm:px-6 sm:py-3 rounded-lg font-semibold sm:text-md md:text-md hover:bg-green-700 transition duration-200">
                 Contact Me
               </button>
             </div>

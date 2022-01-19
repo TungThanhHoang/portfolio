@@ -8,9 +8,18 @@ function Contact() {
         className=" background-about pt-20 pb-20 dark:bg-colordark"
       >
         <div className="max-w-screen-xl mx-auto">
-          <div className="text-center text-3xl md:text-4xl  mb-10 md:mb-16  font-bold text-green-900 dark:text-slate-50">
+          <div className="text-center text-3xl md:text-4xl  mb-5 md:mb-9  font-bold text-green-900 dark:text-slate-50">
             Contact{" "}
             <span className="text-3xl md:text-4xl text-orangecustom">Me</span>
+          </div>
+          <div className="flex items-center justify-center gap-5 mb-10 cursor-pointer">
+            <a href="https://www.facebook.com/profile.php?id=100006784328557">
+              <img src="../../facebook.png" alt="" width={30} height={30} />
+            </a>
+            <a href="mailto:thanhtung1760@example.com">
+              <img src="../../gmail.png" alt="" width={30} height={30} />
+            </a>
+            <img src="../../twitter.png" alt="" width={30} height={30} />
           </div>
           <div
             data-aos="fade-up"
@@ -26,7 +35,7 @@ function Contact() {
                 Contact me, Please!
               </div>
               <div>
-                <div className="flex gap-4 items-center">
+                <div className="flex gap-4 items-center py-2">
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +51,7 @@ function Contact() {
                       />
                     </svg>
                   </div>
-                  <div>
+                  <div className="flex flex-col gap-1">
                     <div className="font-bold text-md A dark:text-slate-300">
                       Address
                     </div>
@@ -61,7 +70,7 @@ function Contact() {
                     <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                   </svg>
-                  <div>
+                  <div className="flex flex-col gap-1 py-2">
                     <div className="font-bold text-md dark:text-slate-300">
                       Email
                     </div>
@@ -81,7 +90,7 @@ function Contact() {
                       <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                     </svg>
                   </div>
-                  <div>
+                  <div className="flex flex-col gap-1">
                     <div className="font-bold text-md dark:text-slate-300">
                       Call Me
                     </div>
@@ -129,7 +138,7 @@ function Contact() {
                 rows="10"
                 placeholder="Message"
               ></textarea>
-              <button className="shadow-lg hover:bg-grayyellowcustom transition duration-300 mt-5 px-8 py-3 font-semibold text-green-900 bg-orange-300 rounded-lg ">
+              <button className="shadow-lg  mt-5 px-8 py-3 font-semibold text-slate-50 bg-gradient-to-r ml-3 from-colorbutton to-colorbutton2 hover:from-colorbutton2 hover:to-colorbutton rounded-lg ">
                 Submit
               </button>
             </div>
