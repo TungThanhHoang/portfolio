@@ -3,7 +3,10 @@ import React from "react";
 function Portfolio() {
   return (
     <>
-      <section id="portfolio" className="py-5 background-portfolio dark:bg-colordark2 pt-20">
+      <section
+        id="portfolio"
+        className="py-5 background-portfolio dark:bg-colordark2 pt-20"
+      >
         <div className="max-w-screen-xl mx-auto">
           <div className="text-center text-3xl md:text-4xl  font-bold text-orangecustom ">
             My Work{" "}
@@ -64,18 +67,42 @@ function Portfolio() {
                   </span>
                 </li>
                 <ul className="grid grid-cols-2 gap-2 mb-2">
-                  <li className="font-sans text-md dark:text-slate-200 ">Login, Register</li>
-                  <li className="font-sans text-md dark:text-slate-200 ">View Product</li>
-                  <li className="font-sans text-md dark:text-slate-200 ">View Category</li>
-                  <li className="font-sans text-md dark:text-slate-200 ">Add to Cart</li>
-                  <li className="font-sans text-md dark:text-slate-200 ">Choose Product in Cart</li>
-                  <li className="font-sans text-md dark:text-slate-200 ">Payment</li>
-                  <li className="font-sans text-md dark:text-slate-200 ">Filter Product</li>
-                  <li className="font-sans text-md dark:text-slate-200 ">Search</li>
-                  <li className="font-sans text-md dark:text-slate-200 ">Delivery</li>
-                  <li className="font-sans text-md dark:text-slate-200 ">Change Info User</li>
-                  <li className="font-sans text-md dark:text-slate-200 ">View Order</li>
-                  <li className="font-sans text-md dark:text-slate-200 ">QR Code</li>
+                  <li className="font-sans text-md dark:text-slate-200 ">
+                    Login, Register
+                  </li>
+                  <li className="font-sans text-md dark:text-slate-200 ">
+                    View Product
+                  </li>
+                  <li className="font-sans text-md dark:text-slate-200 ">
+                    View Category
+                  </li>
+                  <li className="font-sans text-md dark:text-slate-200 ">
+                    Add to Cart
+                  </li>
+                  <li className="font-sans text-md dark:text-slate-200 ">
+                    Choose Product in Cart
+                  </li>
+                  <li className="font-sans text-md dark:text-slate-200 ">
+                    Payment
+                  </li>
+                  <li className="font-sans text-md dark:text-slate-200 ">
+                    Filter Product
+                  </li>
+                  <li className="font-sans text-md dark:text-slate-200 ">
+                    Search
+                  </li>
+                  <li className="font-sans text-md dark:text-slate-200 ">
+                    Delivery
+                  </li>
+                  <li className="font-sans text-md dark:text-slate-200 ">
+                    Change Info User
+                  </li>
+                  <li className="font-sans text-md dark:text-slate-200 ">
+                    View Order
+                  </li>
+                  <li className="font-sans text-md dark:text-slate-200 ">
+                    QR Code
+                  </li>
                 </ul>
               </ul>
               <button className="font-semibold text-orange-400 hover:text-green-900">
@@ -85,7 +112,6 @@ function Portfolio() {
                 <a
                   className="font-semibold text-orange-400 hover:text-green-900"
                   href="https://covidshoppingmarket.herokuapp.com"
-                  target="_blank"
                 >
                   Link to Web --&gt;
                 </a>
@@ -173,15 +199,33 @@ function Portfolio() {
                   </span>
                 </li>
                 <ul className="grid grid-cols-2 gap-2 mb-2">
-                  <li className="font-sans text-md dark:text-slate-200 ">Login, Register</li>
-                  <li className="font-sans text-md dark:text-slate-200 ">View Movie</li>
-                  <li className="font-sans text-md dark:text-slate-200 ">View Genres</li>
-                  <li className="font-sans text-md dark:text-slate-200 ">Recommender Movie</li>
-                  <li className="font-sans text-md dark:text-slate-200 ">Love to movie</li>
-                  <li className="font-sans text-md dark:text-slate-200 ">Search</li>
-                  <li className="font-sans text-md dark:text-slate-200 ">Add Favorite</li>
-                  <li className="font-sans text-md dark:text-slate-200 ">Movie Player</li>
-                  <li className="font-sans text-md dark:text-slate-200 ">Change Info User</li>
+                  <li className="font-sans text-md dark:text-slate-200 ">
+                    Login, Register
+                  </li>
+                  <li className="font-sans text-md dark:text-slate-200 ">
+                    View Movie
+                  </li>
+                  <li className="font-sans text-md dark:text-slate-200 ">
+                    View Genres
+                  </li>
+                  <li className="font-sans text-md dark:text-slate-200 ">
+                    Recommender Movie
+                  </li>
+                  <li className="font-sans text-md dark:text-slate-200 ">
+                    Love to movie
+                  </li>
+                  <li className="font-sans text-md dark:text-slate-200 ">
+                    Search
+                  </li>
+                  <li className="font-sans text-md dark:text-slate-200 ">
+                    Add Favorite
+                  </li>
+                  <li className="font-sans text-md dark:text-slate-200 ">
+                    Movie Player
+                  </li>
+                  <li className="font-sans text-md dark:text-slate-200 ">
+                    Change Info User
+                  </li>
                 </ul>
               </ul>
               <button className="font-semibold text-orange-400 hover:text-green-900">
