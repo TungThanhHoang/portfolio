@@ -3,15 +3,15 @@ import React from "react";
 function Portfolio() {
   return (
     <>
-      <section id="portfolio" className="py-5 background-portfolio pt-20">
+      <section id="portfolio" className="py-5 background-portfolio dark:bg-colordark2 pt-20">
         <div className="max-w-screen-xl mx-auto">
           <div className="text-center text-3xl md:text-4xl  font-bold text-orangecustom ">
             My Work{" "}
-            <span className="text-3xl md:text-4xl text-green-900">
+            <span className="text-3xl md:text-4xl text-green-900 dark:text-slate-50">
               Experience
             </span>
           </div>
-          <div className="text-center pt-4 font-serif">
+          <div className="text-center pt-4 font-serif dark:text-slate-50">
             A few of my standard projects
           </div>
           <div className=" flex-col lg:flex-row flex  mt-8 gap-4">
@@ -22,7 +22,7 @@ function Portfolio() {
               data-aos-duration="2000"
               className="flex-1 p-4"
             >
-              <div className="text-center font-semibold py-4 text-lg">
+              <div className="text-center dark:text-slate-50  font-semibold py-4 text-lg">
                 🛒 Shopping App
               </div>
               <div className="font-semibold text-green-900">
@@ -31,7 +31,7 @@ function Portfolio() {
               <ul>
                 <li className="flex items-center gap-2">
                   <img src="../../frontend.png" alt="" width={30} height={30} />{" "}
-                  <span className="font-semibold text-darkcustom">
+                  <span className="font-semibold text-darkcustom dark:text-slate-100">
                     Front End:{" "}
                     <span className="text-orangecustom cursor-pointer ">
                       React Js, React Native
@@ -40,7 +40,7 @@ function Portfolio() {
                 </li>
                 <li className="flex items-center gap-2 py-2">
                   <img src="../../backend.png" alt="" width={30} height={30} />{" "}
-                  <span className="font-semibold text-darkcustom">
+                  <span className="font-semibold text-darkcustom dark:text-slate-100">
                     {" "}
                     Back End:{" "}
                     <span className="text-orangecustom cursor-pointer">
@@ -51,31 +51,31 @@ function Portfolio() {
                 </li>
                 <li className="flex items-center gap-2">
                   <img src="../../database.png" width={30} height={30} alt="" />{" "}
-                  <span className="font-semibold text-darkcustom">
+                  <span className="font-semibold text-darkcustom dark:text-slate-100">
                     {" "}
                     DataBase: <span className="text-orangecustom">MongoDB</span>
                   </span>
                 </li>
                 <li className="flex items-center gap-2 py-2">
                   <img src="../../function.png" width={30} height={30} alt="" />{" "}
-                  <span className="font-semibold text-darkcustom">
+                  <span className="font-semibold text-darkcustom dark:text-slate-100">
                     {" "}
                     Function:{" "}
                   </span>
                 </li>
                 <ul className="grid grid-cols-2 gap-2 mb-2">
-                  <li className="font-sans text-sm ">Login, Register</li>
-                  <li className="font-sans text-sm ">View Product</li>
-                  <li className="font-sans text-sm ">View Category</li>
-                  <li className="font-sans text-sm ">Add to Cart</li>
-                  <li className="font-sans text-sm ">Choose Product in Cart</li>
-                  <li className="font-sans text-sm ">Payment</li>
-                  <li className="font-sans text-sm ">Filter Product</li>
-                  <li className="font-sans text-sm ">Search</li>
-                  <li className="font-sans text-sm ">Delivery</li>
-                  <li className="font-sans text-sm ">Change Info User</li>
-                  <li className="font-sans text-sm ">View Order</li>
-                  <li className="font-sans text-sm ">QR Code</li>
+                  <li className="font-sans text-md dark:text-slate-200 ">Login, Register</li>
+                  <li className="font-sans text-md dark:text-slate-200 ">View Product</li>
+                  <li className="font-sans text-md dark:text-slate-200 ">View Category</li>
+                  <li className="font-sans text-md dark:text-slate-200 ">Add to Cart</li>
+                  <li className="font-sans text-md dark:text-slate-200 ">Choose Product in Cart</li>
+                  <li className="font-sans text-md dark:text-slate-200 ">Payment</li>
+                  <li className="font-sans text-md dark:text-slate-200 ">Filter Product</li>
+                  <li className="font-sans text-md dark:text-slate-200 ">Search</li>
+                  <li className="font-sans text-md dark:text-slate-200 ">Delivery</li>
+                  <li className="font-sans text-md dark:text-slate-200 ">Change Info User</li>
+                  <li className="font-sans text-md dark:text-slate-200 ">View Order</li>
+                  <li className="font-sans text-md dark:text-slate-200 ">QR Code</li>
                 </ul>
               </ul>
               <button className="font-semibold text-orange-400 hover:text-green-900">
@@ -85,6 +85,7 @@ function Portfolio() {
                 <a
                   className="font-semibold text-orange-400 hover:text-green-900"
                   href="https://covidshoppingmarket.herokuapp.com"
+                  target="_blank"
                 >
                   Link to Web --&gt;
                 </a>
@@ -97,13 +98,13 @@ function Portfolio() {
               data-aos-duration="2000"
               className="flex-1 p-4"
             >
-              <div className="text-center text-lg font-semibold py-4">
+              <div className="text-center text-lg font-semibold  dark:text-slate-50 py-4">
                 🍔 Landing Page FoodShop
               </div>
               <ul>
                 <li className="flex items-center gap-2">
                   <img src="../../frontend.png" alt="" width={30} height={30} />{" "}
-                  <span className="font-semibold text-darkcustom">
+                  <span className="font-semibold text-darkcustom dark:text-slate-100">
                     Front End:{" "}
                     <span className="text-orangecustom cursor-pointer ">
                       HTML5, CSS3, JavaScript
@@ -130,7 +131,7 @@ function Portfolio() {
               data-aos-duration="2000"
               className="flex-1 p-4"
             >
-              <div className="text-center font-semibold py-4 text-lg">
+              <div className="text-center font-semibold  dark:text-slate-50 py-4 text-lg">
                 📽️ Movie Watching App
               </div>
               <div className="font-semibold text-green-900">
@@ -139,7 +140,7 @@ function Portfolio() {
               <ul>
                 <li className="flex items-center gap-2">
                   <img src="../../frontend.png" alt="" width={30} height={30} />{" "}
-                  <span className="font-semibold text-darkcustom">
+                  <span className="font-semibold text-darkcustom dark:text-slate-100">
                     Front End:{" "}
                     <span className="text-orangecustom cursor-pointer ">
                       React Js, React Native
@@ -148,7 +149,7 @@ function Portfolio() {
                 </li>
                 <li className="flex items-center gap-2 py-2">
                   <img src="../../backend.png" alt="" width={30} height={30} />{" "}
-                  <span className="font-semibold text-darkcustom">
+                  <span className="font-semibold text-darkcustom dark:text-slate-100">
                     {" "}
                     Back End:{" "}
                     <span className="text-orangecustom cursor-pointer">
@@ -159,28 +160,28 @@ function Portfolio() {
                 </li>
                 <li className="flex items-center gap-2">
                   <img src="../../database.png" width={30} height={30} alt="" />{" "}
-                  <span className="font-semibold text-darkcustom">
+                  <span className="font-semibold text-darkcustom dark:text-slate-100">
                     {" "}
                     DataBase: <span className="text-orangecustom">MongoDB</span>
                   </span>
                 </li>
                 <li className="flex items-center gap-2 py-2">
                   <img src="../../function.png" width={30} height={30} alt="" />{" "}
-                  <span className="font-semibold text-darkcustom">
+                  <span className="font-semibold text-darkcustom dark:text-slate-100">
                     {" "}
                     Function:{" "}
                   </span>
                 </li>
                 <ul className="grid grid-cols-2 gap-2 mb-2">
-                  <li className="font-sans text-sm ">Login, Register</li>
-                  <li className="font-sans text-sm ">View Movie</li>
-                  <li className="font-sans text-sm ">View Genres</li>
-                  <li className="font-sans text-sm ">Recommender Movie</li>
-                  <li className="font-sans text-sm ">Love to movie</li>
-                  <li className="font-sans text-sm ">Search</li>
-                  <li className="font-sans text-sm ">Add Favorite</li>
-                  <li className="font-sans text-sm ">Movie Player</li>
-                  <li className="font-sans text-sm ">Change Info User</li>
+                  <li className="font-sans text-md dark:text-slate-200 ">Login, Register</li>
+                  <li className="font-sans text-md dark:text-slate-200 ">View Movie</li>
+                  <li className="font-sans text-md dark:text-slate-200 ">View Genres</li>
+                  <li className="font-sans text-md dark:text-slate-200 ">Recommender Movie</li>
+                  <li className="font-sans text-md dark:text-slate-200 ">Love to movie</li>
+                  <li className="font-sans text-md dark:text-slate-200 ">Search</li>
+                  <li className="font-sans text-md dark:text-slate-200 ">Add Favorite</li>
+                  <li className="font-sans text-md dark:text-slate-200 ">Movie Player</li>
+                  <li className="font-sans text-md dark:text-slate-200 ">Change Info User</li>
                 </ul>
               </ul>
               <button className="font-semibold text-orange-400 hover:text-green-900">

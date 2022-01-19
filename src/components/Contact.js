@@ -3,23 +3,26 @@ import React from "react";
 function Contact() {
   return (
     <>
-      <section id="contact" className=" background-about pt-20 pb-20">
+      <section
+        id="contact"
+        className=" background-about pt-20 pb-20 dark:bg-colordark"
+      >
         <div className="max-w-screen-xl mx-auto">
-          <div className="text-center text-3xl md:text-4xl  mb-10 md:mb-16  font-bold text-green-900">
+          <div className="text-center text-3xl md:text-4xl  mb-10 md:mb-16  font-bold text-green-900 dark:text-slate-50">
             Contact{" "}
             <span className="text-3xl md:text-4xl text-orangecustom">Me</span>
           </div>
           <div
             data-aos="fade-up"
             data-aos-anchor-placement="top-bottom"
-            data-aos-duration="3000"
+            data-aos-duration="2000"
             className="flex gap-10 flex-col md:flex-row px-2"
           >
             <div>
-              <div className="text-2xl md:text-3xl  font-bold text-green-900">
+              <div className="text-2xl md:text-3xl  font-bold text-green-900 dark:text-slate-300">
                 Contact Information
               </div>
-              <div className="text-sm font-normal pb-4">
+              <div className="text-sm font-normal pt-2 pb-4 dark:text-slate-50">
                 Contact me, Please!
               </div>
               <div>
@@ -40,8 +43,10 @@ function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <div className="font-bold text-lg">Address</div>
-                    <div className="text-sm font-normal ">
+                    <div className="font-bold text-md A dark:text-slate-300">
+                      Address
+                    </div>
+                    <div className="text-sm font-normal dark:text-slate-50 ">
                       Huyện Gio Linh, Tỉnh Quảng Trị
                     </div>
                   </div>
@@ -57,8 +62,10 @@ function Contact() {
                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                   </svg>
                   <div>
-                    <div className="font-bold text-lg">Mail</div>
-                    <div className="text-sm font-normal">
+                    <div className="font-bold text-md dark:text-slate-300">
+                      Email
+                    </div>
+                    <div className="text-sm font-normal dark:text-slate-50">
                       thanhtung1760@gmail.com
                     </div>
                   </div>
@@ -75,24 +82,33 @@ function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <div className="font-bold text-lg">Call Me</div>
-                    <div className="text-sm font-normal">0326625927</div>
+                    <div className="font-bold text-md dark:text-slate-300">
+                      Call Me
+                    </div>
+                    <div className="text-sm font-normal dark:text-slate-50">
+                      0326625927
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="flex-1">
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="2000"
+              className="flex-1"
+            >
               <div className="flex flex-col md:flex-row gap-4">
                 <div>
                   <input
-                    className="shadow appearance-none border rounded w-full h-12 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                    className="shadow appearance-none border rounded w-full h-12 py-2 px-3 dark:bg-colordark2 text-gray-700 dark:text-slate-300 leading-tight focus:outline-none focus:bg-white focus:border-orange-50 border-gray-500"
                     type="text"
                     placeholder="Name"
                   />
                 </div>
                 <div>
                   <input
-                    className="shadow appearance-none border h-12 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                    className="shadow appearance-none border h-12 rounded w-full py-2 px-3 dark:bg-colordark2 text-gray-700 dark:text-slate-300 leading-tight focus:outline-none focus:bg-white focus:border-orange-50 border-gray-500"
                     type="text"
                     placeholder="Email"
                   />
@@ -100,13 +116,13 @@ function Contact() {
               </div>
               <div className="py-6">
                 <input
-                  className="shadow appearance-none h-12 border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                  className="shadow appearance-none h-12 border rounded w-full py-2 px-3 dark:bg-colordark2 text-gray-700 dark:text-slate-300 leading-tight focus:outline-none focus:bg-white focus:border-orange-50 border-gray-500"
                   type="text"
                   placeholder="SubTitle"
                 />
               </div>
               <textarea
-                className="w-full shadow border rounded  p-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                className="w-full shadow border rounded  p-4 text-gray-700 dark:text-slate-300 leading-tight focus:outline-none dark:bg-colordark2 focus:bg-white focus:border-orange-50 border-gray-500"
                 name="txt"
                 id=""
                 cols="30"

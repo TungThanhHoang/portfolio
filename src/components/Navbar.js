@@ -1,22 +1,24 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import { ThemeContext } from "../contexts/ThemeContext";
 
 function Navbar() {
+  const { darkTheme, setDarkTheme } = useContext(ThemeContext);
   const [isNavbar, setNavbar] = useState(false);
-  const [isDarkMode, setDarkMode] = useState(false);
+  // const [isDarkMode, setDarkMode] = useState(false);
   const handleCloseModal = () => {
     setNavbar(!isNavbar);
   };
 
   return (
     <>
-      <nav className=" sticky inset-x-0 top-0 left-0 bg-grayyellowcustom z-50 ">
+      <nav className=" sticky inset-x-0 top-0 left-0 bg-grayyellowcustom z-50 dark:bg-colordark2 ">
         {/* Button Menu Mobile */}
         {isNavbar && (
           <div className="flex flex-1 items-center flex-col p-4 md:hidden fixed top-0 left-0 h-screen w-screen backdrop-blur-xl overflow-hidden  ">
             <ul className="flex flex-col items-center  ">
               <li className="p-4 ">
                 <a
-                  className="text-xl font-bold text-darkcustom"
+                  className="text-xl font-bold text-darkcustom dark:text-slate-50"
                   href="/"
                   onClick={() => handleCloseModal()}
                 >
@@ -25,7 +27,7 @@ function Navbar() {
               </li>
               <li className="p-4">
                 <a
-                  className="text-xl font-bold text-darkcustom"
+                  className="text-xl font-bold text-darkcustom dark:text-slate-50"
                   href="#about"
                   onClick={() => handleCloseModal()}
                 >
@@ -34,7 +36,7 @@ function Navbar() {
               </li>
               <li className="p-4">
                 <a
-                  className="text-xl font-bold text-darkcustom"
+                  className="text-xl font-bold text-darkcustom dark:text-slate-50"
                   href="#portfolio"
                   onClick={() => handleCloseModal()}
                 >
@@ -43,7 +45,7 @@ function Navbar() {
               </li>
               <li className="p-4">
                 <a
-                  className="text-xl font-bold text-darkcustom"
+                  className="text-xl font-bold text-darkcustom dark:text-slate-50"
                   href="#contact"
                   onClick={() => handleCloseModal()}
                 >
@@ -74,7 +76,7 @@ function Navbar() {
         )}
         <div className="max-w-screen-xl mx-auto flex items-center justify-between">
           {/* Logo */}
-          <div className="mx-5 py-3 font-bold text-darkcustom capitalize text-2xl">
+          <div className="mx-5 py-3 font-bold text-darkcustom dark:text-slate-50 capitalize text-2xl">
             <img src="../../ava2.png" alt="" width={40} height={40} />
           </div>
           {/* Navbar item */}
@@ -82,25 +84,25 @@ function Navbar() {
             <div className="flex flex-row ">
               <a
                 href="/"
-                className="mx-5 py-3 text-md font-bold cursor-pointer text-green-900 border-b-grayyellowcustom border-b-2 hover:text-green-900 hover:border-b-2 hover:border-b-green-900 transation duration-500  "
+                className="mx-5 py-3 text-md font-bold cursor-pointer dark:text-slate-50 text-green-900 dark:border-b-colordark2 dark:hover:text-blue-300 dark:hover:boder-b-blue-300 border-b-grayyellowcustom border-b-2 hover:text-green-900 hover:border-b-2 hover:border-b-green-900 transation duration-500  "
               >
                 Home
               </a>
               <a
                 href="#about"
-                className="mx-5 py-3 text-md font-bold cursor-pointer text-green-900 border-b-grayyellowcustom border-b-2 hover:text-green-900 hover:border-b-2 hover:border-b-green-900 transation duration-500  "
+                className="mx-5 py-3 text-md font-bold cursor-pointer dark:text-slate-50 text-green-900 dark:border-b-colordark2 dark:hover:text-blue-300 dark:hover:boder-b-blue-300 border-b-grayyellowcustom border-b-2 hover:text-green-900 hover:border-b-2 hover:border-b-green-900 transation duration-500  "
               >
                 About
               </a>
               <a
                 href="#portfolio"
-                className="mx-5 py-3 text-md font-bold cursor-pointer text-green-900 border-b-grayyellowcustom border-b-2 hover:text-green-900 hover:border-b-2 hover:border-b-green-900 transation duration-500  "
+                className="mx-5 py-3 text-md font-bold cursor-pointer dark:text-slate-50 text-green-900 dark:border-b-colordark2 dark:hover:text-blue-300 dark:hover:boder-b-blue-300 border-b-grayyellowcustom border-b-2 hover:text-green-900 hover:border-b-2 hover:border-b-green-900 transation duration-500  "
               >
                 Portfolio
               </a>
               <div
                 href="#contact"
-                className="mx-5 py-3 text-md font-bold cursor-pointer text-green-900 border-b-grayyellowcustom border-b-2 hover:text-green-900 hover:border-b-2 hover:border-b-green-900 transation duration-500  "
+                className="mx-5 py-3 text-md font-bold cursor-pointer dark:text-slate-50 text-green-900 dark:border-b-colordark2 dark:hover:text-blue-300 dark:hover:boder-b-blue-300 border-b-grayyellowcustom border-b-2 hover:text-green-900 hover:border-b-2 hover:border-b-green-900 transation duration-500  "
               >
                 Contact
               </div>
@@ -113,7 +115,7 @@ function Navbar() {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-7 w-7 fill-graycustom"
+                className="h-7 w-7 stroke-graycustom dark:stroke-slate-50"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -130,9 +132,9 @@ function Navbar() {
             {/* Switch Darkmode */}
             <button
               className=" mx-3 p-1 border-2 rounded-md border-graycustom hover:border-yellowcustom shadow-sm active:border-violet-600"
-              onClick={() => setDarkMode(!isDarkMode)}
+              onClick={() => setDarkTheme(!darkTheme)}
             >
-              {isDarkMode ? (
+              {darkTheme ? (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-7 w-7 fill-green-900"
