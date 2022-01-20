@@ -1,5 +1,4 @@
 import React from "react";
-
 function Portfolio() {
   return (
     <>
@@ -17,12 +16,12 @@ function Portfolio() {
           <div className="text-center pt-4 font-serif dark:text-slate-50">
             A few of my standard projects
           </div>
-          <div className=" flex flex-wrap flex-col md:flex-row   mt-8 gap-6 mb-10">
+          <div className=" flex flex-wrap flex-col md:flex-row  justify-center mt-8 gap-6 mb-10">
             {/* project 1 */}
             <div
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
               className=" p-4 bg-slate-50 shadow-lg hover:shadow-2xl rounded-xl m-2 dark:bg-colordark3 h-128   "
             >
               <div className="text-center dark:text-slate-50  font-semibold py-3 text-lg">
@@ -111,8 +110,10 @@ function Portfolio() {
                 </button>
                 <button className="py-2">
                   <a
+                    rel="noopener noreferrer"
                     className="font-semibold text-sm text-slate-50 shadow-md bg-gradient-to-r ml-3 from-colorbutton to-colorbutton2 px-4 py-3.5 hover:from-colorbutton2 hover:to-colorbutton rounded-xl"
                     href="https://covidshoppingmarket.herokuapp.com"
+                    target="_blank"
                   >
                     Link to Web
                   </a>
@@ -123,7 +124,7 @@ function Portfolio() {
             <div
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
               className=" p-4 bg-slate-50 shadow-lg hover:shadow-2xl rounded-xl m-2 dark:bg-colordark3 h-128 "
             >
               <div className="text-center text-lg font-semibold  dark:text-slate-50 py-3">
@@ -171,6 +172,8 @@ function Portfolio() {
                 </button>
                 <button className="py-2">
                   <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="font-semibold text-sm text-slate-50 shadow-md bg-gradient-to-r ml-3 from-colorbutton to-colorbutton2 px-4 py-3.5 hover:from-colorbutton2 hover:to-colorbutton rounded-xl"
                     href="https://covidshoppingmarket.herokuapp.com"
                   >
@@ -183,7 +186,7 @@ function Portfolio() {
             <div
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
               className=" p-4 bg-slate-50 shadow-lg hover:shadow-2xl rounded-xl m-2 dark:bg-colordark3 h-128 "
             >
               <div className="text-center font-semibold  dark:text-slate-50 py-3 text-lg">
@@ -263,7 +266,9 @@ function Portfolio() {
                 </button>
                 <button className="py-2">
                   <a
-                    className="font-semibold text-sm text-slate-50 shadow-md bg-gradient-to-r ml-3 from-colorbutton to-colorbutton2 px-4 py-3.5 hover:from-colorbutton2 hover:to-colorbutton rounded-xl"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold text-sm text-slate-50 shadow-md bg-gradient-to-r ml-3 from-colorbutton to-colorbutton2 px-4 py-4 hover:from-colorbutton2 hover:to-colorbutton rounded-xl"
                     href="https://covidshoppingmarket.herokuapp.com"
                   >
                     Link to Web

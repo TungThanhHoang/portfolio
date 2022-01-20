@@ -1,5 +1,6 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import { ThemeContext } from "../contexts/ThemeContext";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const { darkTheme, setDarkTheme } = useContext(ThemeContext);
@@ -9,6 +10,14 @@ function Navbar() {
     setNavbar(!isNavbar);
   };
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  const handleScrollToTop = () => {
+    handleCloseModal();
+    window.scrollTo(0, 0);
+  };
   return (
     <>
       <nav className=" sticky inset-x-0 top-0 left-0 bg-grayyellowcustom z-50 dark:bg-colordark2 shadow-sm ">
@@ -17,13 +26,13 @@ function Navbar() {
           <div className="flex flex-1 items-center flex-col p-4 md:hidden fixed top-0 left-0 h-screen w-screen backdrop-blur-xl overflow-hidden  ">
             <ul className="flex flex-col items-center  ">
               <li className="p-4 ">
-                <a
+                <Link
                   className="text-xl font-bold text-darkcustom dark:text-slate-50"
-                  href="/"
-                  onClick={() => handleCloseModal()}
+                  to="/"
+                  onClick={() => handleScrollToTop()}
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li className="p-4">
                 <a

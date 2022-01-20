@@ -12,7 +12,7 @@ function Contact() {
             Contact{" "}
             <span className="text-3xl md:text-4xl text-orangecustom">Me</span>
           </div>
-          <div className="flex items-center justify-center gap-5 mb-10 cursor-pointer">
+          <div className="flex items-center justify-center space-x-5 mb-10 cursor-pointer">
             <a href="https://www.facebook.com/profile.php?id=100006784328557">
               <img src="../../facebook.png" alt="" width={30} height={30} />
             </a>

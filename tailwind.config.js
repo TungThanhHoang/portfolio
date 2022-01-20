@@ -21,7 +21,7 @@ module.exports = {
         colorbutton2: "#185a9d",
       },
       height: {
-        128: "33rem",
+        128: "35rem",
       },
       width: {
         90: "23rem",

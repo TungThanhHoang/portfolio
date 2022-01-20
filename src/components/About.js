@@ -15,14 +15,20 @@ function About() {
           <div className="text-center pt-4 font-serif dark:text-slate-50">
             I'm a final year student majoring Information Technology{" "}
           </div>
-          <div className="p-2 mt-6 md:mt-10 grid grid-cols-1 lg:grid-cols-2  gap-x-10 justify-between ">
+          <div className="p-2 mt-6 md:mt-10 grid grid-cols-1 lg:grid-cols-2   justify-between ">
             <div data-aos="fade-right">
-              <div className="flex gap-2 text-xl md:text-2xl  font-bold text-orangecustom mb-4">
-                <img src="../../user.png" alt="" width={30} height={30} />
+              <div className="flex space-x-2 text-xl md:text-2xl  font-bold text-orangecustom mb-4">
+                <img
+                  src="../../user.png"
+                  alt=""
+                  width={30}
+                  height={30}
+                  className="max-h-10 "
+                />
                 <span>Personal Infos</span>
               </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-2 mb-10">
-                <div className="flex">
+              <div className="grid grid-cols-1 sm:grid-cols-2 mb-10">
+                <div className="flex ">
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +76,7 @@ function About() {
                     Hoàng Thanh
                   </span>
                 </div>
-                <div className="flex">
+                <div className="flex py-2">
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +100,7 @@ function About() {
                     10/01/2000
                   </span>
                 </div>
-                <div className="flex">
+                <div className="flex py-2">
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -181,14 +187,20 @@ function About() {
               data-aos-duration="1000"
               className="flex-1 flex-start gap-y-2 mb-4"
             >
-              <div className="flex gap-2 text-xl md:text-2xl  font-bold text-orangecustom mb-4">
-                <img src="../../education1.png" width={30} height={30} alt="" />
+              <div className="flex space-x-2 text-xl md:text-2xl  font-bold text-orangecustom mb-4">
+                <img
+                  src="../../education1.png"
+                  width={30}
+                  height={30}
+                  alt=""
+                  className="max-h-10 "
+                />
                 <span> Education</span>
               </div>
-              <div className="flex gap-2">
+              <div className="flex space-x-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 stroke-orange-400 stroke-orangecustom"
+                  className="h-6 w-6 stroke-orange-400 "
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -204,11 +216,11 @@ function About() {
                   2018 - Present
                 </div>
               </div>
-              <div className="flex py-2 gap-2">
+              <div className="flex py-2 space-x-2">
                 <div className="w-6 stroke-orange-400">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 stroke-orange-400  stroke-orangecustom inline-block "
+                    className="h-6 w-6 stroke-orange-400   "
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -230,10 +242,10 @@ function About() {
                   Technology
                 </div>
               </div>
-              <div className="flex gap-2">
+              <div className="flex space-x-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 stroke-orange-400 stroke-orangecustom "
+                  className="h-6 w-6 stroke-orange-400 "
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -252,19 +264,20 @@ function About() {
             </div>
             {/* Achievement */}
             <div data-aos="fade-right" className="flex-start gap-y-2 mt-4 mb-4">
-              <div className="flex gap-2 text-xl md:text-2xl  font-bold text-orangecustom mb-4">
+              <div className="flex space-x-2 text-xl md:text-2xl  font-bold text-orangecustom mb-4">
                 <img
                   src="../../achievement.png"
                   width={30}
                   height={30}
                   alt=""
+                  className="max-h-10 "
                 />
                 <span> Achievement</span>
               </div>
-              <div className="flex gap-2">
+              <div className="flex space-x-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 stroke-orange-400 stroke-orangecustom"
+                  className="h-6 w-6 stroke-orange-400"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -287,15 +300,21 @@ function About() {
               data-aos-duration="1000"
               className="flex-start gap-y-2 mt-4 mb-4"
             >
-              <div className="flex gap-2 text-xl md:text-2xl  font-bold text-orangecustom mb-4">
-                <img src="../../skill.png" width={30} height={30} alt="" />
+              <div className="flex space-x-2 text-xl md:text-2xl  font-bold text-orangecustom mb-4">
+                <img
+                  src="../../skill.png"
+                  width={30}
+                  height={30}
+                  alt=""
+                  className="max-h-10 "
+                />
                 <span>Skills</span>
               </div>
-              <div className="flex gap-2 mb-2">
+              <div className="flex space-x-2 mb-2">
                 <div>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 stroke-orange-400 stroke-orangecustom"
+                    className="h-6 w-6 stroke-orange-400"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -312,11 +331,11 @@ function About() {
                   Read documents in English
                 </div>
               </div>
-              <div className="flex gap-2">
+              <div className="flex space-x-2">
                 <div>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 stroke-orange-400 stroke-orangecustom"
+                    className="h-6 w-6 stroke-orange-400"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
