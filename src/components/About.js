@@ -270,7 +270,7 @@ function About() {
                   width={28}
                   height={28}
                   alt=""
-                  className="max-h-10 "
+                  className="max-h-7 "
                 />
                 <span> Achievement</span>
               </div>
@@ -306,7 +306,7 @@ function About() {
                   width={28}
                   height={28}
                   alt=""
-                  className="max-h-10 "
+                  className="max-h-7 "
                 />
                 <span>Skills</span>
               </div>
