@@ -104,20 +104,18 @@ function Portfolio() {
                   </li>
                 </ul>
               </ul>
-              <div className="absolute bottom-4">
-                <button className="font-semibold text-sm text-slate-50 shadow-md bg-gradient-to-r from-colorbutton to-colorbutton2 px-4 py-3 hover:from-colorbutton2 hover:to-colorbutton rounded-xl">
-                  A few pictures
-                </button>
-                <button className="py-2">
-                  <a
-                    rel="noopener noreferrer"
-                    className="font-semibold text-sm text-slate-50 shadow-md bg-gradient-to-r ml-3 from-colorbutton to-colorbutton2 px-4 py-3.5 hover:from-colorbutton2 hover:to-colorbutton rounded-xl"
-                    href="https://covidshoppingmarket.herokuapp.com"
-                    target="_blank"
-                  >
-                    Link to Web
-                  </a>
-                </button>
+              <div className="absolute bottom-4 flex items-center">
+                <div className="font-semibold text-sm px-4 py-3 text-slate-50 shadow-md bg-gradient-to-r from-colorbutton to-colorbutton2  hover:from-colorbutton2 hover:to-colorbutton rounded-xl">
+                   A few pictures
+                </div>
+                <a
+                  rel="noopener noreferrer"
+                  className="font-semibold text-sm text-slate-50 shadow-md bg-gradient-to-r ml-3 py-3 from-colorbutton to-colorbutton2  hover:from-colorbutton2 hover:to-colorbutton rounded-xl"
+                  href="https://covidshoppingmarket.herokuapp.com"
+                  target="_blank"
+                >
+                  <div className="px-4 ">Link to Web</div>
+                </a>
               </div>
             </div>
             {/* project 2  */}
@@ -166,20 +164,18 @@ function Portfolio() {
                   </span>
                 </li>
               </ul>
-              <div className="absolute bottom-4">
-                <button className="font-semibold text-sm text-slate-50 shadow-md bg-gradient-to-r from-colorbutton to-colorbutton2 px-4 py-3 hover:from-colorbutton2 hover:to-colorbutton rounded-xl">
-                  A few pictures
-                </button>
-                <button className="py-2">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-semibold text-sm text-slate-50 shadow-md bg-gradient-to-r ml-3 from-colorbutton to-colorbutton2 px-4 py-3.5 hover:from-colorbutton2 hover:to-colorbutton rounded-xl"
-                    href="https://covidshoppingmarket.herokuapp.com"
-                  >
-                    Link to Web
-                  </a>
-                </button>
+              <div className="absolute bottom-4 flex items-center">
+                <div className="font-semibold text-sm px-4 py-3 text-slate-50 shadow-md bg-gradient-to-r from-colorbutton to-colorbutton2  hover:from-colorbutton2 hover:to-colorbutton rounded-xl">
+                   A few pictures
+                </div>
+                <a
+                  rel="noopener noreferrer"
+                  className="font-semibold text-sm text-slate-50 shadow-md bg-gradient-to-r ml-3 py-3 from-colorbutton to-colorbutton2  hover:from-colorbutton2 hover:to-colorbutton rounded-xl"
+                  href="https://covidshoppingmarket.herokuapp.com"
+                  target="_blank"
+                >
+                  <div className="px-4 ">Link to Web</div>
+                </a>
               </div>
             </div>
             {/* project 3 */}
@@ -260,20 +256,18 @@ function Portfolio() {
                   </li>
                 </ul>
               </ul>
-              <div className="absolute bottom-4">
-                <button className="font-semibold text-sm  text-slate-50 shadow-md bg-gradient-to-r from-colorbutton to-colorbutton2 px-4 py-3 rounded-xl  hover:from-colorbutton2 hover:to-colorbutton  ">
-                  A few pictures
-                </button>
-                <button className="py-2">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-semibold text-sm text-slate-50 shadow-md bg-gradient-to-r ml-3 from-colorbutton to-colorbutton2 px-4 py-4 hover:from-colorbutton2 hover:to-colorbutton rounded-xl"
-                    href="https://covidshoppingmarket.herokuapp.com"
-                  >
-                    Link to Web
-                  </a>
-                </button>
+              <div className="absolute bottom-4 flex items-center">
+                <div className="font-semibold text-sm px-4 py-3 text-slate-50 shadow-md bg-gradient-to-r from-colorbutton to-colorbutton2  hover:from-colorbutton2 hover:to-colorbutton rounded-xl">
+                   A few pictures
+                </div>
+                <a
+                  rel="noopener noreferrer"
+                  className="font-semibold text-sm text-slate-50 shadow-md bg-gradient-to-r ml-3 py-3 from-colorbutton to-colorbutton2  hover:from-colorbutton2 hover:to-colorbutton rounded-xl"
+                  href="https://covidshoppingmarket.herokuapp.com"
+                  target="_blank"
+                >
+                  <div className="px-4 ">Link to Web</div>
+                </a>
               </div>
             </div>
           </div>

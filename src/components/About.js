@@ -21,9 +21,9 @@ function About() {
                 <img
                   src="../../user.png"
                   alt=""
-                  width={30}
-                  height={30}
-                  className="max-h-10 "
+                  width={28}
+                  height={28}
+                  className="max-h-7 "
                 />
                 <span>Personal Infos</span>
               </div>
@@ -189,11 +189,11 @@ function About() {
             >
               <div className="flex space-x-2 text-xl md:text-2xl  font-bold text-orangecustom mb-4">
                 <img
-                  src="../../education1.png"
-                  width={30}
-                  height={30}
+                  src="../education1.png"
+                  width={28}
+                  height={28}
                   alt=""
-                  className="max-h-10 "
+                  className="max-h-7 "
                 />
                 <span> Education</span>
               </div>
@@ -266,9 +266,9 @@ function About() {
             <div data-aos="fade-right" className="flex-start gap-y-2 mt-4 mb-4">
               <div className="flex space-x-2 text-xl md:text-2xl  font-bold text-orangecustom mb-4">
                 <img
-                  src="../../achievement.png"
-                  width={30}
-                  height={30}
+                  src="../achievement.png"
+                  width={28}
+                  height={28}
                   alt=""
                   className="max-h-10 "
                 />
@@ -302,9 +302,9 @@ function About() {
             >
               <div className="flex space-x-2 text-xl md:text-2xl  font-bold text-orangecustom mb-4">
                 <img
-                  src="../../skill.png"
-                  width={30}
-                  height={30}
+                  src="../skill.png"
+                  width={28}
+                  height={28}
                   alt=""
                   className="max-h-10 "
                 />
