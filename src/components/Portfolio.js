@@ -28,7 +28,7 @@ function Portfolio() {
                 🛒 Shopping App
               </div>
               <div className="font-semibold text-green-900">
-                Cros-platform App
+                Cross-platform App
               </div>
               <ul>
                 <li className="flex items-center gap-3">
@@ -106,7 +106,7 @@ function Portfolio() {
               </ul>
               <div className="absolute bottom-4 flex items-center">
                 <div className="font-semibold text-sm px-4 py-3 text-slate-50 shadow-md bg-gradient-to-r from-colorbutton to-colorbutton2  hover:from-colorbutton2 hover:to-colorbutton rounded-xl">
-                   A few pictures
+                  A few pictures
                 </div>
                 <a
                   rel="noopener noreferrer"
@@ -166,7 +166,7 @@ function Portfolio() {
               </ul>
               <div className="absolute bottom-4 flex items-center">
                 <div className="font-semibold text-sm px-4 py-3 text-slate-50 shadow-md bg-gradient-to-r from-colorbutton to-colorbutton2  hover:from-colorbutton2 hover:to-colorbutton rounded-xl">
-                   A few pictures
+                  A few pictures
                 </div>
                 <a
                   rel="noopener noreferrer"
@@ -188,16 +188,13 @@ function Portfolio() {
               <div className="text-center font-semibold  dark:text-slate-50 py-3 text-lg">
                 📽️ Movie Watching App
               </div>
-              <div className="font-semibold text-green-900">
-                Cros-platform App
-              </div>
-              <ul>
+            <ul>
                 <li className="flex items-center gap-3">
                   <img src="../../frontend.png" alt="" width={30} height={30} />{" "}
                   <span className="font-semibold text-darkcustom dark:text-slate-100">
                     Front End:{" "}
                     <span className="text-orangecustom cursor-pointer ">
-                      React Js, React Native
+                      React Js
                     </span>
                   </span>
                 </li>
@@ -258,7 +255,7 @@ function Portfolio() {
               </ul>
               <div className="absolute bottom-4 flex items-center">
                 <div className="font-semibold text-sm px-4 py-3 text-slate-50 shadow-md bg-gradient-to-r from-colorbutton to-colorbutton2  hover:from-colorbutton2 hover:to-colorbutton rounded-xl">
-                   A few pictures
+                  A few pictures
                 </div>
                 <a
                   rel="noopener noreferrer"
