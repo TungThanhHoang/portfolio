@@ -126,7 +126,7 @@ function Portfolio() {
               className=" p-4 bg-slate-50 shadow-lg hover:shadow-2xl rounded-xl m-2 dark:bg-colordark3 h-128 "
             >
               <div className="text-center text-lg font-semibold  dark:text-slate-50 py-3">
-                🍔 Landing Page FoodShop
+                🍔 Landing Page LoveFood
               </div>
               <ul className="mb-10">
                 <li className="flex items-center gap-3">
