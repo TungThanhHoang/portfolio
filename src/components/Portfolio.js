@@ -171,7 +171,7 @@ function Portfolio() {
                 <a
                   rel="noopener noreferrer"
                   className="font-semibold text-sm text-slate-50 shadow-md bg-gradient-to-r ml-3 py-3 from-colorbutton to-colorbutton2  hover:from-colorbutton2 hover:to-colorbutton rounded-xl"
-                  href="https://covidshoppingmarket.herokuapp.com"
+                  href="https://lovefood.ml"
                   target="_blank"
                 >
                   <div className="px-4 ">Link to Web</div>
