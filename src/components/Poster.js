@@ -48,7 +48,7 @@ function Poster() {
             >
               <img
                 className=" w-auto h-96 md:w-96 md:h-full  rounded-xl shadow-md   "
-                src="../avatar-3.png"
+                src="../avatar-new.png"
                 alt=""
               />
             </div>
