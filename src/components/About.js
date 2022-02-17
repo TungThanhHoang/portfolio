@@ -28,7 +28,7 @@ function About() {
                 <span>Personal Infos</span>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 mb-10">
-                <div className="flex ">
+                <div className="flex py-2 sm:py-0">
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ function About() {
                     Tùng
                   </span>
                 </div>
-                <div className="flex">
+                <div className="flex py-2 sm:py-0">
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +76,7 @@ function About() {
                     Hoàng Thanh
                   </span>
                 </div>
-                <div className="flex py-2">
+                <div className="flex py-2 sm:py-0">
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -100,7 +100,7 @@ function About() {
                     10/01/2000
                   </span>
                 </div>
-                <div className="flex py-2">
+                <div className="flex py-2 sm:py-0">
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -124,7 +124,7 @@ function About() {
                     0326625927
                   </span>
                 </div>
-                <div className="flex">
+                <div className="flex py-2 sm:py-0">
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -151,10 +151,10 @@ function About() {
                     Address:
                   </span>
                   <span className="text-graycustom dark:text-slate-50 font-medium text-md">
-                    Tỉnh Quảng Trị
+                    Đà Nẵng
                   </span>
                 </div>
-                <div className="flex ">
+                <div className="flex py-2 sm:py-0">
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
