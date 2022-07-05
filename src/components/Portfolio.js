@@ -1,14 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import Lottie from "lottie-react";
 import one from '../assets/1.json'
 import two from '../assets/2.json'
 import three from '../assets/3.json'
 import four from '../assets/4.json'
+import dataProject from '../assets/data.json'
+import ViewModal from "./ViewModal";
 
 function Portfolio() {
+  const [showModal, setShowModal] = useState(false);
+  const [project, setProject] = useState(undefined);
+  const [titleProject, setTitleProject] = useState(undefined);
+
+  const onHide = () => {
+    setProject(undefined);
+    setTitleProject(undefined)
+    setShowModal(false);
+  }
+  const onView = (id) => {
+    setProject(dataProject[id])
+    setTitleProject(id)
+    setShowModal(true);
+  }
 
   return (
     <>
+      {showModal && <ViewModal onHide={onHide} data={project} title={titleProject} />}
       <section
         id="portfolio"
         className="py-5 background-portfolio dark:bg-colordark2 pt-20 mb-10"
@@ -39,7 +56,7 @@ function Portfolio() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
                   </svg>
                 </div>
-                <h1 className="ml-2 sm:text-2xl text-xl font-bold text-white text-justify mt-2">Management system for Da Nang University</h1>
+                <h1 className="ml-2 sm:text-2xl text-xl font-bold text-white text-justify mt-2" onClick={() => onView(1)} >Management system for Da Nang University</h1>
               </div>
             </div>
             <Lottie className="hidden sm:block" animationData={one} loop={true} width={100} height={100} />
@@ -58,7 +75,7 @@ function Portfolio() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
                   </svg>
                 </div>
-                <h1 className="ml-2 sm:text-2xl text-xl font-bold text-white text-justify mt-2">Food Landing Page</h1>
+                <h1 className="ml-2 sm:text-2xl text-xl font-bold text-white text-justify mt-2" onClick={() => onView(2)}>Food Landing Page</h1>
               </div>
             </div>
             <div className="cursor-pointer">
@@ -77,7 +94,7 @@ function Portfolio() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
                   </svg>
                 </div>
-                <h1 className="ml-2 sm:text-2xl text-xl font-bold text-white text-justify mt-2">Shopping Market</h1>
+                <h1 className="ml-2 sm:text-2xl text-xl font-bold text-white text-justify mt-2" onClick={() => onView(3)}>Shopping Market</h1>
               </div>
             </div>
             <Lottie className="hidden sm:block" animationData={three} height={200} />
@@ -95,7 +112,7 @@ function Portfolio() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
                   </svg>
                 </div>
-                <h1 className="ml-2 text-2xl font-bold text-white text-justify mt-2">Tracking Covid-19</h1>
+                <h1 className="ml-2 text-2xl font-bold text-white text-justify mt-2" onClick={() => onView(4)}>Tracking Covid-19</h1>
               </div>
             </div>
           </div>

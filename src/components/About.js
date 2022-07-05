@@ -25,8 +25,8 @@ function About() {
                   <span className="bg-blue-500 px-4 py-2 rounded-full text-white font-bold text-xs mr-1 mt-2">Quảng Trị</span>
                   <span className="bg-fuchsia-500 px-4 py-2 rounded-full text-white font-bold text-xs mr-1 mt-2">0326625927</span>
                   <span className="bg-yellow-500 px-4 py-2 rounded-full text-white font-bold text-xs mr-1 mt-2">thanhtung1760@gmail.com</span>
-                  <span className="bg-orange-500 px-4 py-2 rounded-full text-white font-bold text-xs mt-2 mr-1">VietNam - Korea University of Infomation and Communication Technology</span>
                   <span className="bg-violet-500 px-4 py-2 rounded-full text-white font-bold text-xs mr-1 mt-2">Infomation Technology</span>
+                  <span className="bg-orange-500 px-4 py-2 rounded-full text-white font-bold text-xs mt-2 mr-1">VietNam - Korea University of Infomation and Communication Technology</span>
                 </div>
               </div>
             </div>
