@@ -1,6 +1,5 @@
 import React ,{ useEffect } from "react";
 import About from "../components/About";
-import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Portfolio from "../components/Portfolio";
@@ -11,15 +10,14 @@ function Home() {
 
   useEffect(() => {
     AOS.init();
-    AOS.refresh();
   }, []);
+  
   return (
     <>
       <Navbar />
       <Poster />
       <About />
       <Portfolio />
-      <Contact />
       <Footer />
     </>
   );

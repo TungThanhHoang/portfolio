@@ -19,6 +19,8 @@ module.exports = {
         colordark3: "#242b42",
         colorbutton: "#43cea2",
         colorbutton2: "#185a9d",
+        bgbackground: "#151719",
+
       },
       height: {
         128: "35rem",

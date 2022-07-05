@@ -1,11 +1,10 @@
-import React, { useState, useContext, useEffect } from "react";
-import { ThemeContext } from "../contexts/ThemeContext";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 function Navbar() {
-  const { darkTheme, setDarkTheme } = useContext(ThemeContext);
+  // const { darkTheme, setDarkTheme } = useContext(ThemeContext);
   const [isNavbar, setNavbar] = useState(false);
-  // const [isDarkMode, setDarkMode] = useState(false);
+
   const handleCloseModal = () => {
     setNavbar(!isNavbar);
   };
@@ -20,14 +19,14 @@ function Navbar() {
   };
   return (
     <>
-      <nav className=" sticky inset-x-0 top-0 left-0 bg-grayyellowcustom z-50 dark:bg-colordark2 shadow-sm ">
+      <nav className=" sticky inset-x-0 top-0 left-0 bg-bgbackground z-50 dark:bg-colordark2 shadow-sm ">
         {/* Button Menu Mobile */}
         {isNavbar && (
           <div className="flex flex-1 items-center flex-col p-4 md:hidden fixed top-0 left-0 h-screen w-screen backdrop-blur-xl overflow-hidden  ">
             <ul className="flex flex-col items-center  ">
               <li className="p-4 ">
                 <Link
-                  className="text-xl font-bold text-darkcustom dark:text-slate-50"
+                  className="text-lg font-bold text-white"
                   to="/"
                   onClick={() => handleScrollToTop()}
                 >
@@ -36,7 +35,7 @@ function Navbar() {
               </li>
               <li className="p-4">
                 <a
-                  className="text-xl font-bold text-darkcustom dark:text-slate-50"
+                  className="text-xl font-bold text-white"
                   href="#about"
                   onClick={() => handleCloseModal()}
                 >
@@ -45,20 +44,11 @@ function Navbar() {
               </li>
               <li className="p-4">
                 <a
-                  className="text-xl font-bold text-darkcustom dark:text-slate-50"
+                  className="text-xl font-bold text-white"
                   href="#portfolio"
                   onClick={() => handleCloseModal()}
                 >
                   Portfolio
-                </a>
-              </li>
-              <li className="p-4">
-                <a
-                  className="text-xl font-bold text-darkcustom dark:text-slate-50"
-                  href="#contact"
-                  onClick={() => handleCloseModal()}
-                >
-                  Contact
                 </a>
               </li>
             </ul>
@@ -93,28 +83,22 @@ function Navbar() {
             <div className="flex flex-row ">
               <a
                 href="/"
-                className="mx-5 py-3 text-md font-bold cursor-pointer  dark:text-slate-50 text-green-900 dark:hover:border-b-blue-300 dark:hover:text-blue-300  dark:hover:boder-b-blue-300 border-b-transparent border-b-2 hover:text-green-900 hover:border-b-2 hover:border-b-green-900 transation duration-500  "
+                className="mx-5 py-3 text-md font-bold cursor-pointer  text-white dark:hover:border-b-blue-300 dark:hover:text-blue-300  dark:hover:boder-b-blue-300 border-b-transparent border-b-2 hover:text-blue-500 hover:border-b-2 hover:border-b-blue-500 transation duration-500  "
               >
                 Home
               </a>
               <a
                 href="#about"
-                className="mx-5 py-3 text-md font-bold cursor-pointer dark:text-slate-50 text-green-900 dark:hover:border-b-blue-300 dark:hover:text-blue-300 dark:hover:boder-b-blue-300 border-b-transparent border-b-2 hover:text-green-900 hover:border-b-2 hover:border-b-green-900 transation duration-500  "
+                className="mx-5 py-3 text-md font-bold cursor-pointer text-white dark:hover:border-b-blue-300 dark:hover:text-blue-300 dark:hover:boder-b-blue-300 border-b-transparent border-b-2 hover:text-blue-500 hover:border-b-2 hover:border-b-blue-500 transation duration-500  "
               >
                 About
               </a>
               <a
                 href="#portfolio"
-                className="mx-5 py-3 text-md font-bold cursor-pointer dark:text-slate-50 text-green-900 dark:hover:border-b-blue-300 dark:hover:text-blue-300 dark:hover:boder-b-blue-300 border-b-transparent border-b-2 hover:text-green-900 hover:border-b-2 hover:border-b-green-900 transation duration-500  "
+                className="mx-5 py-3 text-md font-bold cursor-pointer text-white dark:hover:border-b-blue-300 dark:hover:text-blue-300 dark:hover:boder-b-blue-300 border-b-transparent border-b-2 hover:text-blue-500 hover:border-b-2 hover:border-b-blue-500 transation duration-500  "
               >
                 Portfolio
               </a>
-              <div
-                href="#contact"
-                className="mx-5 py-3 text-md font-bold cursor-pointer dark:text-slate-50 text-green-900 dark:hover:border-b-blue-300 dark:hover:text-blue-300 dark:hover:boder-b-blue-300 border-b-transparent border-b-2 hover:text-green-900 hover:border-b-2 hover:border-b-green-900 transation duration-500  "
-              >
-                Contact
-              </div>
             </div>
           </div>
           <div className="flex item-center">
@@ -124,7 +108,7 @@ function Navbar() {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-7 w-7 stroke-graycustom dark:stroke-slate-50"
+                className="h-7 w-7 stroke-slate-50"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -138,7 +122,7 @@ function Navbar() {
               </svg>
             </button>
 
-            {/* Switch Darkmode */}
+            {/* Switch Darkmode
             <button
               className=" mx-3 p-1 border-2 rounded-md border-graycustom hover:border-blue-300 shadow-sm active:border-violet-600"
               onClick={() => setDarkTheme(!darkTheme)}
@@ -166,7 +150,7 @@ function Navbar() {
                   <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
                 </svg>
               )}
-            </button>
+            </button> */}
           </div>
         </div>
       </nav>

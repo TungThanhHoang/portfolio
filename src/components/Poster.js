@@ -5,49 +5,55 @@ function Poster() {
       <section className="h-screen md:pt-26 pt-10 background-container relative dark:bg-colordark2  ">
         {/* <div className="absolute top-0 left-0 bottom-0 z-0 h-screen max-w-screen-xl ">
         </div> */}
-        <div className="max-w-screen-xl mx-auto px-4">
-          <div className="flex flex-col md:flex-row  justify-between  relative ">
-            <div className=" mt-2 mb-12 md:mb-16 md:mt-10">
+        <div className="max-w-screen-xl mx-auto px-4 mt-6">
+          <div className="grid sm:grid-cols-3 grid-cols-1 sm:gap-8 gap-0 relative ">
+            <div className="col-span-2 mt-2 mb-12 md:mb-16 md:mt-10">
               <div
                 data-aos="fade-right"
                 data-aos-duration="500"
-                className="text-2xl sm:text-4xl md:text-4xl lg:text-6xl  font-bold animation ease-in-out duration-300 uppercase"
+                className="text-2xl sm:text-4xl md:text-4xl text-white lg:text-6xl font-bold animation ease-in-out duration-300 uppercase"
               >
-                <span className="text-yellowcustom"> Hi, I'm Thanh Tung.</span>
+                <span className="">Hi,</span>
+              </div>
+              <div
+                data-aos="fade-right"
+                data-aos-duration="500"
+                className="mt-2 text-2xl sm:text-4xl md:text-4xl text-white lg:text-6xl font-bold animation ease-in-out duration-300 uppercase"
+              >
+                <span className="">I'm Thanh Tung.</span>
               </div>
               <div
                 data-aos="fade-right"
                 data-aos-duration="1500"
-                className="mt-4 flex space-x-2 mb-4"
+                className="mt-2 flex space-x-2 mb-4"
               >
-                <div className="text-2xl sm:text-4xl md:text-4xl lg:text-6xl font-bold text-green-900 mb-2 animation ease-in-out duration-300 uppercase">
-                  Front End {""}
-                </div>
-                <div className="text-2xl sm:text-4xl md:text-4xl lg:text-6xl font-bold text-redcustom mb-2 animation ease-in-out duration-300 uppercase">
-                  Developer
+                <div className="text-2xl text-white sm:text-4xl md:text-4xl lg:text-6xl font-bold mb-2 animation ease-in-out duration-300 uppercase">
+                  Front End Developer
                 </div>
                 {/* <div className="text-3xl md:tex font-bold transition deplay-1000 ease-in-out">
                   Programer
                 </div> */}
               </div>
-              <a
-                href="https://www.facebook.com/profile.php?id=100006784328557"
-                target="_blank"
-                rel="noopener noreferrer"
-                data-aos="fade-right"
-                data-aos-duration="2000"
-                className="bg-gradient-to-r  from-colorbutton to-colorbutton2 text-whitecustom  px-5 py-3 text-md sm:px-6 sm:py-3 rounded-lg font-semibold sm:text-md md:text-md hover:bg-green-700 transition duration-200 shadow-sm"
-              >
-                Contact Me
-              </a>
+              <div data-aos="fade-right"
+                data-aos-duration="1500" className="mt-8">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100006784328557"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className=" rounded-lg bg-blue-500 text-white px-7 py-3 text-md sm:px-6 sm:py-3 font-bold sm:text-md md:text-md hover:bg-blue-600 transition duration-200 shadow-sm"
+                >
+                  Contact Me
+                </a>
+                <a className=" ml-4 rounded-lg bg-gray-50 px-7 py-3 text-md sm:px-6 sm:py-3 font-bold sm:text-md md:text-md hover:bg-gray-300 transition duration-200 shadow-sm" target="_blank" href="https://drive.google.com/file/d/1Qwk8FXMWtwlWlP5C6-3i16xfAgmzriAY/view?usp=sharing" rel="noreferrer">My CV</a>
+              </div>
             </div>
             <div
               data-aos="fade-left"
               data-aos-duration="2000"
-              className="flex justify-center  bg-center bg-contain "
+              className="bg-center bg-contain "
             >
               <img
-                className=" w-auto h-96 md:w-96 md:h-full  rounded-xl shadow-md   "
+                className="object-contain w-full h-80 sm:w-auto sm:h-3/4 rounded-xl shadow-md   "
                 src="../avatar-new.png"
                 alt=""
               />
@@ -55,25 +61,6 @@ function Poster() {
           </div>
         </div>
         {/* icon arrow down */}
-
-        <div className="absolute animate-pulse   left-1/2 bottom-20 -translate-x-1/2  w-10 h-10  rounded-xl cursor-pointer border-dashed border-2 border-orangecustom ">
-          <a href="#about" className=" absolute left-1/2  top-1/2 -translate-y-1/2 -translate-x-1/2 ">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className=" h-4 w-4 text-orangecustom"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M19 14l-7 7m0 0l-7-7m7 7V3"
-              />
-            </svg>
-          </a>
-        </div>
       </section>
     </>
   );
