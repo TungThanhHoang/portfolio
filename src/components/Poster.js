@@ -44,7 +44,7 @@ function Poster() {
                 >
                   Contact Me
                 </a>
-                <a className=" ml-4 rounded-lg bg-gray-50 px-7 py-3 text-md sm:px-6 sm:py-3 font-bold sm:text-md md:text-md hover:bg-gray-300 transition duration-200 shadow-sm" target="_blank" href="https://drive.google.com/file/d/1Qwk8FXMWtwlWlP5C6-3i16xfAgmzriAY/view?usp=sharing" rel="noreferrer">My CV</a>
+                <a className=" ml-4 rounded-lg bg-gray-50 px-7 py-3 text-md sm:px-6 sm:py-3 font-bold sm:text-md md:text-md hover:bg-gray-300 transition duration-200 shadow-sm" target="_blank" href="https://drive.google.com/file/d/1wc9OzXM263EYj8r1UrmIIJx6Y-eoJJ54/view?usp=sharing" rel="noreferrer">My CV</a>
               </div>
             </div>
             <div
